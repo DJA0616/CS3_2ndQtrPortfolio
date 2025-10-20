@@ -1,0 +1,76 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border7-box;
+    padding: 10px;
+    border: 1px solid #ffffff10;
+    border-radius: 10px;
+    color:white;
+}
+
+body {
+    background-color: white;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(193, 120, 253));
+}
+
+header, footer {
+    text-align: center;
+    background-color:rgba(226, 118, 194, 0.637);
+}
+
+#main-title {   
+    word-spacing: 10px;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.intro {
+    font-size: 1.5em;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+section img:first-child {
+    display: block;
+    width: 25vw;
+    height: 25vh;
+    margin: auto;
+}
+
+.container img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+a[target="_blank"] {
+    border: greenyellow solid 3px;
+}
+
+a[href="/internal-page"] {
+    text-decoration: none;
+    border: orange solid 3px;
+}
+
+a:hover{
+    color:rgba(0, 0, 0, 0);
+    background-image:linear-gradient(black,white);
+}
+
+.container ul {
+    list-style-type: none; /* removes bullets */
+    clear: left; /* removes effect of float:left */
+    padding: 0; /* removes the spaces surrounding the li/s */
+}
+
+.container ul li {
+    width: 150px;
+    padding: 5px;
+    background-color: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0px 25px;
+    border-color:blue;
+}
