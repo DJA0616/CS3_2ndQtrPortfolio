@@ -1,0 +1,21 @@
+h1, h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+td{
+    border:1px solid gray;
+}
+
+a{
+    border:1px solid gray;
+}
+
+.container{
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer{
+    background-image:linear-gradient(aquamarine, white);
+}
